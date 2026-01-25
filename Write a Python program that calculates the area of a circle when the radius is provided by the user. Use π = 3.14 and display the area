@@ -1,0 +1,11 @@
+#read the radius as a float
+radius=float(input())
+
+#define the value of pi
+pi= 3.14
+
+#calculate the area
+area = pi* radius *radius
+
+#display the area formatted to 4 decimal places
+print = f("{area:.4f}")
